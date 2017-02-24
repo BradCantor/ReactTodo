@@ -15,7 +15,7 @@ export function changeFilter(filter) {
     }
 }
 
-export function changeACtiveFilter(filter) {
+export function changeActiveFilter(filter) {
     return {
         type: 'CHANGE_ACTIVE_FILTER',
         filter

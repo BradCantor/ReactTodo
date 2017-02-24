@@ -20,7 +20,7 @@ export default class TodoApp extends Component {
     render(){
         return <div>
             <TodoHeader addItem={this.props.addItem}/>
-            <ActiveFilter activeFilter={this.props.activeFilter}/>
+            <ActiveFilter changeActiveFilter={this.props.changeActiveFilter}/>
             <section className="todoapp">
 
                 <TodoList {...this.props}/>

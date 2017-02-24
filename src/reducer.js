@@ -81,7 +81,7 @@ export default function(state = Map(), action) {
         case 'CHANGE_FILTER':
             return changeFilter(state, action.filter);
         case 'CHANGE_ACTIVE_FILTER':
-            return changeFilter(state, action.filter);
+            return changeActiveFilter(state, action.filter);
         case 'CLEAR_COMPLETED':
             return clearCompleted(state);
         case 'EDIT_ITEM':
